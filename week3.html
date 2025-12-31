@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JS Internship Task</title>
+  <link rel="stylesheet" href="style_.css">
+</head>
+<body>
+  <button id="themeToggle">Toggle Dark Mode</button>
+
+  <h1 id="mainTitle">Welcome to My Page</h1>
+
+  <div id="gallery">
+    <img src="https://via.placeholder.com/120?text=1" class="thumb" alt="img1">
+    <img src="https://via.placeholder.com/120?text=2" class="thumb" alt="img2">
+    <img src="https://via.placeholder.com/120?text=3" class="thumb" alt="img3">
+  </div>
+
+  <form id="contactForm">
+    <h2>Contact Form</h2>
+
+    <label>
+      Name:
+      <input type="text" id="name">
+    </label>
+    <span class="error" id="nameError"></span><br>
+
+    <label>
+      Email:
+      <input type="email" id="email">
+    </label>
+    <span class="error" id="emailError"></span><br>
+
+    <label>
+      Message:
+      <textarea id="message"></textarea>
+    </label>
+    <span class="error" id="messageError"></span><br>
+
+    <button type="submit">Send</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

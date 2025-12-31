@@ -1,0 +1,41 @@
+body 
+{
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #f5f5f5;
+  color: #222;
+}
+
+.dark 
+{
+  background: #121212;
+  color: #f5f5f5;
+}
+
+#themeToggle 
+{
+  margin-bottom: 20px;
+}
+
+#gallery 
+{
+  margin: 20px 0;
+}
+
+.thumb 
+{
+  margin-right: 10px;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.thumb:hover 
+{
+  border-color: #007bff;
+}
+
+.error 
+{
+  color: red;
+  font-size: 12px;
+}
